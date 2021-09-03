@@ -13,6 +13,6 @@ jobs:
         with:
           REMOTE: "https://source.foundries.io/factories/sda/containers.git"
           GIT_ACCESS_TOKEN: ${{ secrets.GIT_ACCESS_TOKEN }}
-          PUSH_ALL_REFS: "true"
-          HAS_CHECKED_OUT: "true"
+          PUSH_ALL_REFS: "false"
+          DEBUG: "true"
           SRC_REPO: "devel"
