@@ -14,5 +14,5 @@ jobs:
           REMOTE: "https://source.foundries.io/factories/sda/containers.git"
           GIT_ACCESS_TOKEN: ${{ secrets.GIT_ACCESS_TOKEN }}
           PUSH_ALL_REFS: "false"
-          GITHUB_REF: devel
+          GITHUB_REF: master
           DEBUG: "true"
